@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agents", "Agents\Agents.csproj", "{BD984034-C19A-4C4D-A5F9-3F396FB0C1AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Agents", "Agents\Agents.csproj", "{BD984034-C19A-4C4D-A5F9-3F396FB0C1AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{CE901A04-A85A-4F15-9677-BF791490B383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimInterf", "Polimorfismo\AnimInterf.csproj", "{F71D4C69-2A1C-4285-92B0-ECB5D13AED61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{BD984034-C19A-4C4D-A5F9-3F396FB0C1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD984034-C19A-4C4D-A5F9-3F396FB0C1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD984034-C19A-4C4D-A5F9-3F396FB0C1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE901A04-A85A-4F15-9677-BF791490B383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE901A04-A85A-4F15-9677-BF791490B383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE901A04-A85A-4F15-9677-BF791490B383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE901A04-A85A-4F15-9677-BF791490B383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71D4C69-2A1C-4285-92B0-ECB5D13AED61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71D4C69-2A1C-4285-92B0-ECB5D13AED61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71D4C69-2A1C-4285-92B0-ECB5D13AED61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71D4C69-2A1C-4285-92B0-ECB5D13AED61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
